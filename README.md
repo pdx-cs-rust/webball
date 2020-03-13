@@ -18,3 +18,9 @@ Then point your browser at `localhost:10333`.
     
 * Will create a second ball following the first in some
   circumstances.
+
+## Acknowledgments
+
+Thanks to all the various tutorials, guides, examples and
+tool breakdowns — too many to list — that I borrowed from in
+getting to this point.
