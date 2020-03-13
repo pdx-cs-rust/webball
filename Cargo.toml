@@ -1,0 +1,25 @@
+[package]
+name = "webball"
+version = "0.1.0"
+edition = "2018"
+description = "Bouncing Ball WASM demo."
+license = "LICENSE"
+repository = "http://github.com/pdx-cs-rust/webball"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+js-sys = "0.3.36"
+wasm-bindgen = "0.2.59"
+gloo-timers = "0.2.1"
+
+[dependencies.web-sys]
+version = "0.3.4"
+features = [
+  'CanvasRenderingContext2d',
+  'Document',
+  'Element',
+  'HtmlCanvasElement',
+  'Window',
+]
