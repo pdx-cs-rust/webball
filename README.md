@@ -12,12 +12,13 @@ bounces a ball in a browser window.
     cd www
     simple-http-server --ip 127.0.0.1 -p 10333
 
-Then point your browser at `localhost:10333`.
+Then point your browser at `localhost:10333/index.html` and
+you should be demoing.
     
 ## Bugs
     
-* Will create a second ball following the first in some
-  circumstances.
+Will create a second ball following the first in some
+circumstances.
 
 ## Acknowledgments
 
